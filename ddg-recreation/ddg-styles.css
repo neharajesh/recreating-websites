@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.container-centered {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+textarea {
+    border: 1px solid black;
+    width: 50vw;
+    padding: 1rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: rgb(68, 1, 77);
+    color: white;
+}
