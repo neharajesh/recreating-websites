@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     background-color: black;
     color: white;
 }
@@ -10,12 +10,32 @@ body {
     display: flex;
     justify-content: center;
     align-content: center;
+    height: 80vh;
 }
 
-textarea {
+ul {
+    list-style: none;
+    text-align: center;
+    padding-top: 20vh;
+}
+
+img{
+    max-width: 12%;
+    height: auto;
+}
+
+input {
     border: 1px solid black;
-    width: 50vw;
-    padding: 1rem;
+    width: 35vw;
+    padding: 1vw;
+    border-radius: 0.3vw;
+    background-color: #434b5b;
+    color: white;
+    height: 10px;
+}
+
+.ddg-disclaimer {
+    padding-top: 2vh;
 }
 
 footer {

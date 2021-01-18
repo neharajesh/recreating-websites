@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.header {
+    padding: 1vw;
+    background-color: purple;
+}
+
+h2 {
+    padding: 1vw;
+}
+
+ul {
+    list-style: none;
+}
+
+.links-button {
+    text-decoration: none;
+    color: white;
+}
+
+.links-button > a {
+    color: 8996c1;
+    font-size: large;
+}
